@@ -1,12 +1,7 @@
 {
   "presets": [
-    // "es2015",
-    // "react",
-    // "stage-0"
     "@babel/preset-env",
     "@babel/preset-react"
-    // "@babel/preset-es2015"
-    // "@babel/preset-stage-0"
   ],
   "plugins": [
     ["@babel/plugin-proposal-decorators", {"decoratorsBeforeExport": true}],
@@ -14,11 +9,3 @@
     ["@babel/plugin-proposal-class-properties"]
   ]
 }
-
-// "babel": {
-//   "presets": [
-//     "env",
-//     "react",
-//     "stage-2"
-//   ]
-// },
