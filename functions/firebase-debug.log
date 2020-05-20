@@ -1,0 +1,13 @@
+[debug] [2020-05-20T08:04:33.730Z] ----------------------------------------------------------------------
+[debug] [2020-05-20T08:04:33.733Z] Command:       /usr/local/bin/node /usr/local/bin/firebase login --reauth
+[debug] [2020-05-20T08:04:33.733Z] CLI Version:   8.3.0
+[debug] [2020-05-20T08:04:33.733Z] Platform:      darwin
+[debug] [2020-05-20T08:04:33.733Z] Node Version:  v12.16.2
+[debug] [2020-05-20T08:04:33.734Z] Time:          Wed May 20 2020 11:04:33 GMT+0300 (GMT+03:00)
+[debug] [2020-05-20T08:04:33.735Z] ----------------------------------------------------------------------
+[debug] [2020-05-20T08:04:33.735Z] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=746360428&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...

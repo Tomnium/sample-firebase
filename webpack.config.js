@@ -26,15 +26,17 @@ const config = {
         rules: [{
             test: /\.js(x)?$/,
             exclude: /(node_modules)/,
-            use: [{
-                loader: 'babel-loader'
-            }]
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    presets: ['@babel/preset-env']
+                }
+            }
         }, {
             test: /\.(scss|css)$/,
             use: [
                 "style-loader",
                 "css-loader",
-                "autoprefixer-loader?browsers=last 5 version",
                 "sass-loader"
             ]
         }, {
